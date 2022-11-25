@@ -1,0 +1,31 @@
+.text {
+     margin: 0;
+     text-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 30px cyan, 0 0 5px cyan;
+     color: black;
+     justify-content: center;
+     font-size: 60px;
+     display: grid;
+     place-content: center;
+ }
+ 
+ .btn {
+     margin: 0;
+     background-color: transparent;
+     text-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 30px cyan, 0 0 5px cyan;
+     color: black;
+     padding: 10px;
+     border-style: none;
+     font-size: 50px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     border-radius: 2rem;
+     border-color: whitesmoke;
+     border: solid 1px;
+     transition: .3s;
+ }
+ 
+ .btn:hover {
+     padding: 15px;
+     color: white;
+ }
+ 
+ 
